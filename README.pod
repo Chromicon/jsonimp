@@ -17,7 +17,6 @@ See the Hydstra help file for further examples. Specifically: HYDLLP - Flat DLL 
 
 =begin HTML
 
-<p><img src="https://github.com/Chromicon/jsonimp/blob/master/images/PSC.PNG"
-width="600" height="500" alt="PSC" /></p>
+<p><img src="https://github.com/Chromicon/jsonimp/blob/master/images/PSC.PNG" alt="PSC" /></p>
 
 =end HTML
