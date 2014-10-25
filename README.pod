@@ -4,19 +4,20 @@ Version 0.01
 
 =head1 SYNOPSIS
 
-HYSCRIPT to import JSON from a hydll webservices
+HYSCRIPT to import hydllp JSON from a webservice
   
      
 =head1 Usage
 
-Specify the function as you would a perl JSONCall. 
-See the Hydstra helpfile: HYDLLP - Flat DLL Interface to Hydstra
+Specify the function as you would a Perl JSONCall. 
+
+See the Hydstra help file for further examples. Specifically: HYDLLP - Flat DLL Interface to Hydstra
 
 =head1 Screenshot 
 
 =begin HTML
 
 <p><img src="https://github.com/Chromicon/jsonimp/blob/master/images/PSC.PNG"
-width="500" height="250" alt="PSC" /></p>
+width="600" height="500" alt="PSC" /></p>
 
 =end HTML
