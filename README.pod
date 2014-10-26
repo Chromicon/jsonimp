@@ -1,8 +1,8 @@
-=head1 VERSION
+=head1 Version
 
 Version 0.01
 
-=head1 SYNOPSIS
+=head1 Synopsis
 
 HYSCRIPT to import hydllp JSON from a webservice
   
@@ -22,7 +22,7 @@ See the Hydstra help file for further examples. Specifically: HYDLLP - Flat DLL 
 
 =head1 Cut n Paste Examples
 
-=head2 get_db_info
+=head3 get_db_info
 
   {
     'function'=>'get_db_info',
@@ -36,7 +36,7 @@ See the Hydstra help file for further examples. Specifically: HYDLLP - Flat DLL 
     }	
   }
 
-=head2 
+=head3 get_ts_traces
 
   { 
   'function'=> 'get_ts_traces', 
