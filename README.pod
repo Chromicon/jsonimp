@@ -6,7 +6,6 @@ Version 0.01
 
 HYSCRIPT to import hydllp JSON from a webservice
   
-     
 =head1 Usage
 
 Specify the function as you would a Perl JSONCall. 
@@ -20,3 +19,37 @@ See the Hydstra help file for further examples. Specifically: HYDLLP - Flat DLL 
 <p><img src="https://github.com/Chromicon/jsonimp/blob/master/images/PSC.PNG" alt="PSC" /></p>
 
 =end HTML
+
+=head1 Cut n Paste Examples
+
+=head2 get_db_info
+
+  {
+    'function'=>'get_db_info',
+    'version'=> 3,
+    'params'=>{
+      'table_name'=> 'site', 
+      'return_type'=> 'array', 
+      'decodes'=>'yes',
+      'field_list'=> ['station', 'stname', 'latitude', 'longitude', 'zone'],
+      'sitelist_filter'=>'GROUP(BORES,Geelong)'
+    }	
+  }
+
+=head2 
+
+  { 
+  'function'=> 'get_ts_traces', 
+    'version'=> 2,
+    'params'=> {
+      'site_list'=> '142714', 
+      'datasource'=> 'A', 
+      'varfrom'=> '100.09', 
+      'varto'=> '100.09', 
+      'start_time'=> '20140701000000', 
+      'end_time'=>'20140802000000', 
+      'data_type'=> 'mean', 
+      'interval'=> 'day', 
+      'multiplier'=> '1'
+    }
+  }
