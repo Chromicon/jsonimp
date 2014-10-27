@@ -10,9 +10,11 @@ HYSCRIPT to import hydllp JSON from a webservice
 
 Specify the function as you would a Perl JSONCall. 
 
-See the Hydstra help file for further examples. Specifically: HYDLLP - Flat DLL Interface to Hydstra
+See the Hydstra help file for further examples. Specifically: 
 
-=head1 Screenshot 
+ HYDLLP - Flat DLL Interface to Hydstra
+
+=head3 Screenshot 
 
 =begin HTML
 
@@ -24,21 +26,21 @@ See the Hydstra help file for further examples. Specifically: HYDLLP - Flat DLL 
 
 =head3 get_db_info
 
-  {
-    'function'=>'get_db_info',
-    'version'=> 3,
-    'params'=>{
-      'table_name'=> 'site', 
-      'return_type'=> 'array', 
-      'decodes'=>'yes',
-      'field_list'=> ['station', 'stname', 'latitude', 'longitude', 'zone'],
-      'sitelist_filter'=>'GROUP(BORES,Geelong)'
-    }	
-  }
+ {
+  'function'=>'get_db_info',
+  'version'=> 3,
+  'params'=>{
+    'table_name'=> 'site', 
+    'return_type'=> 'array', 
+    'decodes'=>'yes',
+    'field_list'=> ['station', 'stname', 'latitude', 'longitude', 'zone'],
+    'sitelist_filter'=>'GROUP(BORES,Geelong)'
+  }	
+ }
 
 =head3 get_ts_traces
 
-  { 
+ { 
   'function'=> 'get_ts_traces', 
     'version'=> 2,
     'params'=> {
@@ -52,4 +54,4 @@ See the Hydstra help file for further examples. Specifically: HYDLLP - Flat DLL 
       'interval'=> 'day', 
       'multiplier'=> '1'
     }
-  }
+ }
